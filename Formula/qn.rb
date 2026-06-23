@@ -1,25 +1,25 @@
 class Qn < Formula
   desc "Command-line interface for the Quicknode SDK"
   homepage "https://www.quicknode.com/docs/welcome"
-  version "0.1.12"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/quicknode/cli/releases/download/v0.1.12/quicknode-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "7e7917e6457b705148581472fef50d2f5ba27086667380bc0ed85f79619f9c50"
+      url "https://github.com/quicknode/cli/releases/download/v0.2.0/quicknode-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "6db4fac4f6a7996e57f0e7aa6b8949058abe9fbe73eb94c9f4c1e1727a244ca9"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/quicknode/cli/releases/download/v0.1.12/quicknode-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "472799735f40efad8bc79e2a69beb1a3dc14f5bf7768cfc610d3c222794bbf1b"
+      url "https://github.com/quicknode/cli/releases/download/v0.2.0/quicknode-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "1976f75e80908062614a63a8ae2efcb97554810768d1f8cda903dce421c67601"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/quicknode/cli/releases/download/v0.1.12/quicknode-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "86fabd9b9c6ed9bd98f8b01415280d7913ec369f446eaf915004290507bf600f"
+      url "https://github.com/quicknode/cli/releases/download/v0.2.0/quicknode-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "1d6b440ead6f88359888fa89ebd2dc470248a549cba72ea4a064fb508abb7775"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/quicknode/cli/releases/download/v0.1.12/quicknode-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "812ae898735e9cadea4eefd6b8a46914a58a8d5db320ee2c31c41eb70a7f5307"
+      url "https://github.com/quicknode/cli/releases/download/v0.2.0/quicknode-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "7b6ad50b427f0e8d3b9eab4b848e7e42b5948fd0b21824ebaac49cc2e18a069d"
     end
   end
   license "MIT"
